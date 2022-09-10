@@ -62,7 +62,7 @@ The code is actually rather simple, some hints, if you want to play with it on y
 * Every now and then a blast of fire is allowed to rise up to the upper part of a segment. This is triggered by a random number and *SEGENV.aux1* as switch. 
 * If *SEGENV.aux1* is 1 a blast rises up, which in the end is nothing more than lighting the upper LEDs of the segment with the "colder" colores (dark reds), taken from the palette. This gives a nice fade-out effect for the fire. 
 
-*** Configuring WLED
+### Configuring WLED
 
 After you have everything compiled and transfered you want to make some settings:
 * Create your segments.
@@ -72,7 +72,7 @@ After you have everything compiled and transfered you want to make some settings
 * Create a profile.
 * Assign the profile as start-up profile. 
 
-*** Housing
+### Housing
 
 I used a an old candle as housing.
 You prop. will need to use some foile or paper as "diffusor" - this enhances the effect! In any case you should not expose the LEDs directly, this sort of destroyes the effect ...
