@@ -21,7 +21,7 @@ WLED comes with some predefined fire like effects. In my opinion they are "nice"
 How to create custom effects is described [here](https://kno.wled.ge/advanced/custom-features/#create-custom-effects). In essence you need to checkout the source code and integrate the below effect to the *fx.cpp* and *fx.h* files, compile everything and upload it to your Wemos D1. 
 
 ```C++
-uint16_t WS2812FX::mode_hobi(void)
+uint16_t WS2812FX::mode_fireglow(void)
 {
   fade_out(SEGMENT.speed);
 
